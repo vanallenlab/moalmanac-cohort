@@ -3,6 +3,24 @@ This repository includes a Jupyter notebook to execute a set of standard questio
 
 You can open `moalmanac-cohort.ipynb` and configure it to run with your own data by following the instructions to edit variables under the `Load data` and `Configuration` sections.
 
+The notebook currently addresses the following questions,
+- How many patients are contained within this cohort?
+- How many patients have genomic alterations?
+- How many alterations does each patient have, by feature type?
+- How many patients have at least one alteration assocaited with therapeutic sensitivity? resistance? disease prognosis?
+- What percentage of patients have an association for therapeutic sensitivity per evidence type? What about cumulatively?
+- What are the most common observed alterations, by feature type?
+- What are the most common observed clinically relevant alterations, by feature type?
+- What are the most common observed biologically relevant alterations, by feature type?
+- What therapies are most commonly highlighted for therapeutic sensitivity? For resistance?
+- Which alteration and therapy pairs are most commonly highlighted for therapeutic sensitivity? For resistance?
+
+And the notebook also generates seven figures, 
+- Patients with clinically relevant alterations, by feature type
+- Associations by evidence for therapeutic sensitivity, resistance, and disease prognosis
+- Counts of patients by evidence with at least one alteration associated with therapeutic sensitivity, resistance, and disease prognosis
+
+
 # Installation
 To use this repository, please follow these instructions to [download this repository from GitHub](#download-this-repository-from-github) and [install python dependencies](#install-python-dependencies) by setting up a virtual environment. 
 
