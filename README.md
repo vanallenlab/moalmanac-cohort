@@ -3,6 +3,8 @@ This repository includes a Jupyter notebook to execute a set of standard questio
 
 You can open `moalmanac-cohort.ipynb` and configure it to run with your own data by following the instructions to edit variables under the `Load data` and `Configuration` sections.
 
+Currently, the notebook uses the [actionable.txt](https://github.com/vanallenlab/moalmanac/blob/main/docs/description-of-outputs.md#actionable) and [somatic.scored.txt](https://github.com/vanallenlab/moalmanac/blob/main/docs/description-of-outputs.md#somatic-scored) outputs from the Molecular Oncology Almanac.
+
 The notebook currently addresses the following questions,
 - How many patients are contained within this cohort?
 - How many patients have genomic alterations?
