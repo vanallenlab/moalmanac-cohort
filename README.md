@@ -1,6 +1,8 @@
 # Standard cohort analyses for samples profiled with the Molecular Oncology Almanac
 This repository includes a Jupyter notebook to execute a set of standard questions and figures that provide a descriptive summary of the clinical interpretation landscape for a given cohort, given that each profile has been processed with the [Molecular Oncology Almanac](https://github.com/vanallenlab/moalmanac).  
 
+You can open `moalmanac-cohort.ipynb` and configure it to run with your own data by following the instructions to edit variables under the `Load data` and `Configuration` sections.
+
 # Installation
 To use this repository, please follow these instructions to [download this repository from GitHub](#download-this-repository-from-github) and [install python dependencies](#install-python-dependencies) by setting up a virtual environment. 
 
