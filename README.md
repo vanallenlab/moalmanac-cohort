@@ -5,6 +5,8 @@ You can open `moalmanac-cohort.ipynb` and configure it to run with your own data
 
 Currently, the notebook uses the [actionable.txt](https://github.com/vanallenlab/moalmanac/blob/main/docs/description-of-outputs.md#actionable) and [somatic.scored.txt](https://github.com/vanallenlab/moalmanac/blob/main/docs/description-of-outputs.md#somatic-scored) outputs from the Molecular Oncology Almanac.
 
+This repository comes packaged with interpretations for 100 patients with kidney papillary cell carcinoma (KIRP) from TCGA, [as analyzed in a previous study](https://github.com/vanallenlab/moalmanac-paper).
+
 The notebook currently addresses the following questions,
 - How many patients are contained within this cohort?
 - How many patients have genomic alterations?
@@ -51,3 +53,12 @@ virtualenv moalmanac-cohort
 source activate moalmanac-cohort/bin/activate
 pip install -r requirements.txt
 ```
+
+# Citation
+If you find this tool or any code herein useful, please cite:  
+> [Reardon, B., Moore, N.D., Moore, N.S., *et al*. Integrating molecular profiles into clinical frameworks through the Molecular Oncology Almanac to prospectively guide precision oncology. *Nat Cancer* (2021). https://doi.org/10.1038/s43018-021-00243-3](https://www.nature.com/articles/s43018-021-00243-3)
+
+# Disclaimer - For research use only
+DIAGNOSTIC AND CLINICAL USE PROHIBITED. DANA-FARBER CANCER INSTITUTE (DFCI) and THE BROAD INSTITUTE (Broad) MAKE NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT OR VALIDITY OF ANY INTELLECTUAL PROPERTY RIGHTS OR CLAIMS, WHETHER ISSUED OR PENDING, AND THE ABSENCE OF LATENT OR OTHER DEFECTS, WHETHER OR NOT DISCOVERABLE.
+
+In no event shall DFCI or Broad or their Trustees, Directors, Officers, Employees, Students, Affiliates, Core Faculty, Associate Faculty and Contractors, be liable for incidental, punitive, consequential or special damages, including economic damages or injury to persons or property or lost profits, regardless of whether the party was advised, had other reason to know or in fact knew of the possibility of the foregoing, regardless of fault, and regardless of legal theory or basis. You may not download or use any portion of this program for any non-research use not expressly authorized by DFCI or Broad. You further agree that the program shall not be used as the basis of a commercial product and that the program shall not be rewritten or otherwise adapted to circumvent the need for obtaining permission for use of the program other than as specified herein.
